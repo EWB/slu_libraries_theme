@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    font-family: "Helvetica Neue","Helvetica","Arial";
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue","Helvetica","Arial";
+}
+h1 {
+    font-size: 26px;
+}
+h2.block-title {
+    letter-spacing: 0;
+    margin-bottom: 12px;
+    margin-top: 9px;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+a:hover {
+    color: #669900;
+}
+#zone-user-wrapper {
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 40px;
+}
+#zone-user-wrapper a {
+    color: #FFFFFF;
+    float: right;
+    text-decoration: none;
+}
+#zone-branding {
+	padding-top: 13px;
+ 	background-image: url(../images/header-blue-w-seal.png);
+	box-shadow: 0 0 10px #000000;
+}
+#zone-branding-wrapper {
+	background-color: #3A88C0;
+	border-bottom: 5px solid #000000;
+	border-top: 1px solid #CCCCCC;
+}
+.front #zone-header {
+}
+#zone-header p {
+    margin-bottom: 0;
+}
+#zone-header-wrapper {
+    background: none repeat scroll 0 0 #8E964D;
+    border-bottom: 1px solid #AAAAAA;
+}
+#zone-menu-wrapper {
+    background: none repeat scroll 0 0 #003366;
+    border-bottom: 1px solid #000000;
+    /*padding-bottom: 7px;
+    padding-top: 7px;*/
+}
+#zone-menu {
+	    box-shadow: 0 0 10px #000000;
+}
+	
+#zone-content {
+    background-color: #FFFFFF;
+}
+
+#section-content {
+    background: none repeat scroll 0 0 #E1DFD6;
+}
+.front #section-content .zone-wrapper .zone {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 0 10px #888888;
+}
+#zone-footer-wrapper {
+    background: none repeat scroll 0 0 #333333;
+    color: #CCCCCC;
+    min-height: 60px;
+}
+#region-footer-second {
+    padding-top: 24px;
+}
+#main-menu li a:link, #main-menu li a:visited {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    padding-left: 12px;
+    text-decoration: none;
+}
+#zone-preface {
+}
+
+#first-time {
+    display: none;
+}
+#zone-preface {
+}
+#zone-preface .block {
+    padding: 0 14px 0 12px;
+}
+.block ul {
+    margin-left: 15px;
+    padding-left: 15px;
+}
+#zone-postscript {
+    background-color: #FFFFFF;
+    border-top: medium none;
+}
+
+.not-front .zone-content {
+    box-shadow: 0 0 10px #888888;
+}
+
+.front h1 {
+    display: none;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #006699;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
