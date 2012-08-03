@@ -121,3 +121,13 @@ a:hover {
 }
 
 
+#block-boxes-library-utility-links   {
+	background-color:#666;
+}
+
+#block-boxes-library-utility-links a {
+    color: #FFFFFF;
+    padding: 0 6px 0 10px;
+}
+
+
