@@ -180,7 +180,7 @@ ul.quicktabs-tabs.quicktabs-style-sky li a:visited {
   border-right: 1px solid #eee;
   border-top: 1px solid #eee;
   font-size: .95em;
-  background: #fff url('images/bg-shade-light.png') repeat-x bottom left;
+  background: #fff url('../images/bg-shade-light.png') repeat-x bottom left;
   color: #777;
   position: relative;
 }
@@ -189,7 +189,7 @@ ul.quicktabs-tabs.quicktabs-style-sky li a:visited {
 ul.quicktabs-tabs.quicktabs-style-sky li.active a:hover {
   text-decoration: none;
   border-color: #B3B3B3;
-  background: #B3B3B3 url('images/bg-shade-medium.png') repeat-x bottom left;
+  background: #B3B3B3 url('../images/bg-shade-medium.png') repeat-x bottom left;
   color: #fff;
 }
 
@@ -200,7 +200,7 @@ ul.quicktabs-tabs.quicktabs-style-sky li.active a:visited {
   line-height: 3.35em;
   font-weight: normal;
   border: 1px solid #eee;
-  background: #858585 url('images/bg-shade-dark.png') repeat-x bottom left;
+  background: #858585 url('../images/bg-shade-dark.png') repeat-x bottom left;
   border-color: #555;
   color: #fff;
   font-size: .95em;
@@ -223,7 +223,7 @@ ul.quicktabs-tabs.quicktabs-style-sky li a:active {
 }
 #quicktabs-library_search_cluster {
 
- 	background: #CCC;
+	background: #FFFFFF url('../images/shine-bg-tan-s.png') repeat-x scroll 0 0;
 	border: 1px solid;
     height: 110px;
 	
@@ -235,6 +235,25 @@ ul.quicktabs-tabs.quicktabs-style-sky li a:active {
     padding: 10px 5px 0;
     position: relative;
     top: 0em;
+}
+
+#quicktabs-library_search_cluster #block-boxes-encore  {
+	padding-left:25px;
+	
+}
+#quicktabs-library_search_cluster  #boxes-box-odysseus p {
+	display:inline
+	
+	
+	}
+#quicktabs-library_search_cluster  #boxes-box-odysseus	 {
+	padding-left:25px;
+	
+}
+#quicktabs-library_search_cluster  #block-boxes-journal-search, #quicktabs-library_search_cluster  #boxes-box-odysseus, #quicktabs-library_search_cluster #block-boxes-encore, 
+#quicktabs-library_search_cluster  #block-boxes-journal-search, #quicktabs-library_search_cluster #block-search-form	 {
+	padding-left:25px;
+	
 }
 
 
