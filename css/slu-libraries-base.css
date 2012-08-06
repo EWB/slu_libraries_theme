@@ -42,14 +42,15 @@ a:hover {
 	border-bottom: 5px solid #000000;
 	border-top: 1px solid #CCCCCC;
 }
-.front #zone-header {
+#zone-header {
+	background-color:#FFF;
 }
 #zone-header p {
     margin-bottom: 0;
 }
 #zone-header-wrapper {
-    background: none repeat scroll 0 0 #8E964D;
-    border-bottom: 1px solid #AAAAAA;
+	background-color: #C7C5BA;
+	
 }
 #zone-menu-wrapper {
     background: none repeat scroll 0 0 #003366;
@@ -68,9 +69,9 @@ a:hover {
 #section-content {
     background: none repeat scroll 0 0 #E1DFD6;
 }
-.front #section-content .zone-wrapper .zone {
+#section-content .zone-wrapper .zone {
     background: none repeat scroll 0 0 #FFFFFF;
-    box-shadow: 0 0 10px #888888;
+    /*box-shadow: 0 0 10px #888888;*/
 }
 #zone-footer-wrapper {
     background: none repeat scroll 0 0 #333333;
@@ -128,6 +129,112 @@ a:hover {
 #block-boxes-library-utility-links a {
     color: #FFFFFF;
     padding: 0 6px 0 10px;
+}
+
+
+
+
+
+/* Quicktabs - Sky theme style
+ * http://drupal.org/project/sky
+ */
+
+#quicktabs-library_search_cluster .quicktabs_main.quicktabs-style-sky {
+  border: none;
+  clear: both;
+  padding: 10px 5px 0 5px;
+  position: relative;
+  top: 0em;
+  background: none;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li {
+  float: left;
+  font-weight: normal;
+  list-style: none;
+  margin: 0em 0 0.3em 0;
+  height: 2.65em;
+  min-height: 2.95em;
+  padding: 0;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li.active {
+  margin: 0em 0 0 0;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li a, #quicktabs-library_search_cluster
+ul.quicktabs-tabs.quicktabs-style-sky li a:visited {
+  float: left;
+  display: block;
+  height: 2.65em;
+  min-height: 2.95em;
+  line-height: 2.95em;
+  padding: 0 8px;
+  text-decoration: none;
+  border-right: 1px solid #eee;
+  border-top: 1px solid #eee;
+  font-size: .95em;
+  background: #fff url('images/bg-shade-light.png') repeat-x bottom left;
+  color: #777;
+  position: relative;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li a:hover, #quicktabs-library_search_cluster
+ul.quicktabs-tabs.quicktabs-style-sky li.active a:hover {
+  text-decoration: none;
+  border-color: #B3B3B3;
+  background: #B3B3B3 url('images/bg-shade-medium.png') repeat-x bottom left;
+  color: #fff;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li.active a, #quicktabs-library_search_cluster
+ul.quicktabs-tabs.quicktabs-style-sky li.active a:visited {
+  height: 3.05em;
+  min-height: 3.35em;
+  line-height: 3.35em;
+  font-weight: normal;
+  border: 1px solid #eee;
+  background: #858585 url('images/bg-shade-dark.png') repeat-x bottom left;
+  border-color: #555;
+  color: #fff;
+  font-size: .95em;
+  font-weight: normal;
+  top: 0em;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li:first-child a {
+  border-left: solid 1px #eee;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li.active a {
+  border-left: solid 1px #777;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li a:focus, #quicktabs-library_search_cluster
+ul.quicktabs-tabs.quicktabs-style-sky li a:active {
+  outline: none;
+  
+}
+#quicktabs-library_search_cluster {
+
+ 	background: #CCC;
+	border: 1px solid;
+    height: 110px;
+	
+}
+.quicktabs_main.quicktabs-style-sky {
+    background: #CCC;
+    border: none;
+    clear: both;
+    padding: 10px 5px 0;
+    position: relative;
+    top: 0em;
 }
 
 
