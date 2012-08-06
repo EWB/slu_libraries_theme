@@ -263,3 +263,19 @@ ul.quicktabs-tabs.quicktabs-style-sky li a:active {
 }
 
 
+#boxes-box-library_humanities_links ul, #boxes-box-library_sciences_links ul, #boxes-box-library_social_sciences_links ul, #boxes-box-library_general_sources_links ul, #boxes-box-library_interdisciplinary_links ul   {
+    line-height: 1.4em;
+    list-style: none outside none;
+    margin-left: 4px;
+    padding-left: 4px;
+}
+
+#zone-content-grid h2.block-title  {
+	 color: #9F0000;
+    font-size: 1.3em;
+    font-weight: bold;
+	line-height:1em;
+	
+}
+
+
