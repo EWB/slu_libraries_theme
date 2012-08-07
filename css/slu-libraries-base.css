@@ -144,10 +144,14 @@ a:hover {
 #quicktabs-library_search_cluster .quicktabs_main.quicktabs-style-sky {
   border: none;
   clear: both;
-  padding: 10px 5px 0 5px;
+  padding: 30px 5px 0 5px;
   position: relative;
   top: 0em;
   background-color: #A30D01;
+  
+  
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 0 3px #666666;
 }
 
 #quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky {
@@ -250,8 +254,44 @@ ul.quicktabs-tabs.quicktabs-style-sky li a:active {
 #quicktabs-library_search_cluster  #block-boxes-journal-search, #quicktabs-library_search_cluster  #boxes-box-odysseus, #quicktabs-library_search_cluster #block-boxes-encore, 
 #quicktabs-library_search_cluster  #block-boxes-journal-search, #quicktabs-library_search_cluster #block-search-form	 {
 	padding-left:25px;
+	min-height:60px;
 	
 }
+
+/*********** Search Cluster Style Overrides **************/
+
+#quicktabs-library_search_cluster  {
+	/*background-color: #7EA4C0;	*/
+}
+ul.quicktabs-tabs.quicktabs-style-zen {
+	/*background-color:#FFF;*/
+	
+}
+
+#quicktabs-container-library_search_cluster .quicktabs-tabpage  {
+	padding-top:22px;
+	padding-bottom:8px;
+	
+}
+
+ul.quicktabs-tabs.quicktabs-style-basic li.active {  
+	background-color:#666666;
+	border-style: none;
+    border-width: 0px;
+	color:#FFF;
+
+}
+ul.quicktabs-tabs.quicktabs-style-basic li.active a {
+    color: #FFF;
+}
+.quicktabs_main.quicktabs-style-basic {
+	background-color:#666666;
+	background: url("../images/shine-bg-tan-s.png") repeat-x scroll 0 0 #FFFFFF;
+	
+}
+
+
+
 
 #boxes-box-library_help_front {
 	padding-top:18px;	
@@ -275,6 +315,50 @@ ul.quicktabs-tabs.quicktabs-style-sky li a:active {
     font-size: 1.3em;
     font-weight: bold;
 	line-height:1em;
+	
+}
+
+#block-boxes-library-research-tools h2 {
+	
+    background-color:#528898;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding: 5px;
+}
+#block-boxes-library-research-tools  h2.block-title {	
+	color:#FFF;
+}
+#block-boxes-library-research-tools, #block-boxes-library-hours-block-placeholder  {
+	padding: 4px;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 0 3px #ccc;
+	margin-bottom: 12px;
+	
+}
+#block-boxes-library-hours-block-placeholder h2 {
+	background-color: #436135;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+	margin-top: 0;
+	padding: 5px;
+}
+#block-boxes-library-hours-block-placeholder  h2.block-title {	
+	color:#FFF;
+}
+#block-boxes-library-hours-block-placeholder .boxes-box, #block-boxes-library-research-tools .boxes-box {	
+	padding-left:12px;
+}
+
+#boxes-box-library_image_frontpage img {
+		padding: 4px;
+		border: 1px solid #DDDDDD;
+		box-shadow: 0 0 3px #ccc;
+	
+}
+#boxes-box-library_databases_a_z_frontpage img, #boxes-box-library_course_resources_front  img{
+		border: 1px solid #DDDDDD;
+		box-shadow: 0 0 3px #ccc;
 	
 }
 
