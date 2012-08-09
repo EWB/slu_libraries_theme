@@ -33,7 +33,7 @@ a:hover {
     text-decoration: none;
 }
 #zone-branding {
-	padding-top: 13px;
+	
  	background-image: url(../images/header-blue-w-seal.png);
 	box-shadow: 0 0 10px #000000;
 }
@@ -367,12 +367,14 @@ ul.quicktabs-tabs.quicktabs-style-basic li.active a {
 
 
 .form-item-search-block-form #edit-search-block-form--2  {
-	width:250px;	
+	width:170px;	
+	font-size:.9em;
+	height:1.7em;
 	
 }
 #search-block-form  {
 	position:relative;
-	top:-30px;
+	top:-40px;
 	float:right;
 	
 }
