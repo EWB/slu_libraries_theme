@@ -165,7 +165,7 @@ a:hover {
   float: left;
   font-weight: normal;
   list-style: none;
-  margin: 0em 0 0.3em 0;
+  margin: 0em 0 0em 0;
   height: 2em;
   min-height: 2em;
   padding: 0;
@@ -196,7 +196,8 @@ ul.quicktabs-tabs.quicktabs-style-sky li a:visited {
 ul.quicktabs-tabs.quicktabs-style-sky li.active a:hover {
   text-decoration: none;
   border-color: #B3B3B3;
-  background: #B3B3B3 url('../images/bg-shade-medium.png') repeat-x bottom left;
+  /*background: #B3B3B3 url('../images/bg-shade-medium.png') repeat-x bottom left;*/
+  bacground-color:#333;
   color: #fff;
 }
 
@@ -261,7 +262,8 @@ ul.quicktabs-tabs.quicktabs-style-sky li a:active {
 /*********** Search Cluster Style Overrides **************/
 
 #quicktabs-library_search_cluster  {
-	/*background-color: #7EA4C0;	*/
+	background-color: #666666;
+	margin-top:16px;
 }
 ul.quicktabs-tabs.quicktabs-style-zen {
 	/*background-color:#FFF;*/
@@ -297,8 +299,8 @@ ul.quicktabs-tabs.quicktabs-style-basic li.active a {
 	padding-top:18px;	
 	
 }
-#block-boxes-library-databases-a-z-frontpage p  {
-	display:inline;
+#block-boxes-library-databases-a-z-frontpage .content   {
+	display:inline-block;
 	
 }
 
@@ -354,6 +356,7 @@ ul.quicktabs-tabs.quicktabs-style-basic li.active a {
 		padding: 4px;
 		border: 1px solid #DDDDDD;
 		box-shadow: 0 0 3px #ccc;
+		margin-left:28px;
 	
 }
 #boxes-box-library_databases_a_z_frontpage img, #boxes-box-library_course_resources_front  img{
