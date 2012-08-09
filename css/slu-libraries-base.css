@@ -370,4 +370,10 @@ ul.quicktabs-tabs.quicktabs-style-basic li.active a {
 	width:250px;	
 	
 }
+#search-block-form  {
+	position:relative;
+	top:-30px;
+	float:right;
+	
+}
 
