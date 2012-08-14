@@ -197,7 +197,7 @@ ul.quicktabs-tabs.quicktabs-style-sky li.active a:hover {
   text-decoration: none;
   border-color: #B3B3B3;
   /*background: #B3B3B3 url('../images/bg-shade-medium.png') repeat-x bottom left;*/
-  bacground-color:#333;
+  background-color:#333;
   color: #fff;
 }
 
@@ -208,8 +208,10 @@ ul.quicktabs-tabs.quicktabs-style-sky li.active a:visited {
   line-height: 2em;
   font-weight: normal;
   border: 1px solid #eee;
-  background: #858585 url('../images/bg-shade-dark.png') repeat-x bottom left;
-  border-color: #555;
+/*  background: #858585 url('../images/bg-shade-dark.png') repeat-x bottom left;
+*/  
+	background:#000;
+	border-color: #555;
   color: #fff;
   font-size: .95em;
   font-weight: normal;
@@ -263,7 +265,8 @@ ul.quicktabs-tabs.quicktabs-style-sky li a:active {
 
 #quicktabs-library_search_cluster  {
 	background-color: #666666;
-	margin-top:16px;
+	margin-top: 16px;
+	border: 1px solid #666;
 }
 ul.quicktabs-tabs.quicktabs-style-zen {
 	/*background-color:#FFF;*/
