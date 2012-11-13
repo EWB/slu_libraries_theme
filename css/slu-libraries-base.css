@@ -52,7 +52,7 @@ a:hover {
 }
 
 #zone-content-grid h2.block-title  {
-	 color: #9F0000;
+	 color: #A90018;
     font-size: 1.3em;
     font-weight: bold;
 	line-height:1em;
@@ -90,7 +90,7 @@ a:hover {
 
 #zone-header {
     background-color: #F1F1F1;
-    padding-top: 24px;
+    padding-top: 4px;
 }
 #section-content .zone-wrapper .zone {
     background: none repeat scroll 0 0 #F1F1F1;
@@ -108,10 +108,17 @@ a:hover {
 #quicktabs-library_search_cluster {
     margin-top: 28px;
     border: 1px solid #CCCCCC;
+
+    
 }
 #quicktabs-container-library_search_cluster     {
    
     min-height:50px;
+    background: url("../images/block-bg.png") repeat-x scroll left top transparent;
+    border-radius: 3px 3px 3px 3px;
+    clear: both;
+    overflow: hidden;
+    padding: 15px;
     
 }
 #quicktabs-container-library_search_cluster .block {
