@@ -66,37 +66,6 @@ a:hover {
 	
 }
 
-
-.navigation {
-    background: url("../images/menu-bg.png") repeat-x scroll left top transparent;
-    border-radius: 5px 5px 5px 5px;
-    display: block !important;
-    height: 34px;
-    /*position: absolute;
-    right: 0;
-    top: 57px;*/
-    visibility: visible !important;
-    width: auto;
-    z-index: 100;
-    margin-top: 4px;
-
-}
-
-ul.main-menu a {
-    color: white;
-    font-size: 0.9em;
-    font-weight: bold;
-    padding: 0.9em 1em 1em;
-    text-decoration: none;
-    text-shadow: 1px 2px 2px #211611;
-    text-transform: uppercase;
-}
-
-ul.nice-menu a {
-    color: #027AC6;
-    display: block;
-}
-
     
 #section-footer  {
     background-color: #3C221C;
@@ -105,7 +74,7 @@ ul.nice-menu a {
     color:#ffffff;
 
 }
-#region-footer-first {
+#zone-footer-wrapper{
     background-color: #4B2B23;
     border-bottom: 1px solid #38201A;
     padding-top: 25px;
@@ -135,5 +104,74 @@ ul.nice-menu a {
     background-color: #EFEEEA;
     
 }
+#quicktabs-library_search_cluster {
+    margin-top: 28px;
+    border: 1px solid #CCCCCC;
+}
+#quicktabs-library_search_cluster .item-list {
+    background: url("../images/menu-bg.png") repeat-x scroll left top transparent;
+    padding:4px 0 1px 0;
+ }
+ #quicktabs-library_search_cluster .item-list li a {
+    color: #fff; 
+}
+
+#quicktabs-container-library_search_cluster  {
+    padding-bottom: 28px;
+    padding-top: 22px;
+    padding-left: 14px;
+    background-color: #ffffff;
+
+}
+
+.block-nice-menus-2  {
+    margin-top: 28px;
+
+}
+
+.block-nice-menus-2 ul.nice-menu li {
+    background: url("../images/menu-bg.png") repeat-x scroll left top transparent;
+    border-radius: 5px 5px 5px 5px;
+    border:0;
 
 
+}
+.block-nice-menus-2 ul  {
+    
+    background: url("../images/menu-bg.png") repeat-x scroll left top transparent;
+    border-radius: 5px 5px 5px 5px;
+
+    
+
+    }
+
+.block-nice-menus-2 ul.nice-menu a {
+    color:#ffffff;
+
+
+}
+
+#boxes-box-library_db_course_list img {
+    padding-right: 6px;
+    padding-left: 6px;
+
+
+}
+#boxes-box-front_feature_placeholder img {
+
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    margin-top: 10px;
+    padding: 4px;
+
+}
+/*#zone-header {
+
+    background: none repeat scroll 0 0 #F3F3F1;
+    border-top: 5px solid #E2E2E2;
+    border-bottom: 5px solid #E2E2E2;
+    min-height: 315px;
+    overflow: hidden;
+    padding: 10px 0 0 0px;
+
+}*/
