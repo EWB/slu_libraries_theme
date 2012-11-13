@@ -105,6 +105,11 @@ a:hover {
     /*background-color: #EFEEEA;*/
     
 }
+
+#region-content-grid-first, #region-content-grid-second, #region-content-grid-third, #region-content-grid-fourth {
+    border-top: 3px solid #38211B;
+
+}
 #quicktabs-library_search_cluster {
     margin-top: 28px;
     border: 1px solid #CCCCCC;
