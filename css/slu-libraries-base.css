@@ -209,7 +209,7 @@ a:hover {
 
 #block-views-base-announcement-block-1 .views-row {
     float:left;
-    margin-left: 20px; 
+    margin-left: 36px; 
     height: 350px;
     color: #000000;
     padding: 5px;
@@ -239,6 +239,34 @@ a:hover {
 
 
 }
+
+#views_slideshow_controls_text_previous_base_announcement-block_1  {
+    background: url("../images/slideshow-medium-grey-arrow-left.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+    display: block;
+    height: 46px;
+    position: relative;
+    text-align: left;
+    text-indent: -9999px;
+    top: 160px;
+    width: 22px;
+    z-index: 100;
+
+}
+#views_slideshow_controls_text_next_base_announcement-block_1 {
+    background: url("../images/slideshow-medium-grey-arrow-right.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+    display: block;
+    height: 46px;
+    float:right;
+    position: relative;
+    text-align: left;
+    text-indent: -9999px;
+    top: 115px;
+    width: 22px
+}
+
+
 
 
 
