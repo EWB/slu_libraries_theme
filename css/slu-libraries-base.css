@@ -240,7 +240,7 @@ a:hover {
 
 }
 
-#views_slideshow_controls_text_previous_base_announcement-block_1  {
+/*#views_slideshow_controls_text_previous_base_announcement-block_1  {
     background: url("../images/slideshow-medium-grey-arrow-left.png") no-repeat scroll left center transparent;
     cursor: pointer;
     display: block;
@@ -264,8 +264,36 @@ a:hover {
     text-indent: -9999px;
     top: 115px;
     width: 22px
+}*/
+.views-slideshow-controls-text-pause {
+    display:none;
 }
-
+#views_slideshow_controls_text_next_base_announcement-block_1, #views_slideshow_controls_text_previous_base_announcement-block_1  { 
+    background: url("../images/slideshow-medium-grey-arrows.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+    display: block;
+    height: 46px;
+    left: 14px;
+    position: absolute;
+    text-align: left;
+    text-indent: -9999px;
+    top: 140px;
+    width: 22px;
+    z-index:200;
+}
+#views_slideshow_controls_text_previous_base_announcement-block_1  { 
+    background: url("../images/slideshow-medium-grey-arrow-right.png") no-repeat scroll left center transparent;
+    cursor: pointer;
+    display: block;
+    height: 46px;
+    left: 900px;
+    position: absolute;
+    text-align: left;
+    text-indent: -9999px;
+    top: 140px;
+    width: 22px;
+    z-index:200;
+}
 
 
 
