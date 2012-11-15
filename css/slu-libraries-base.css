@@ -89,17 +89,16 @@ a:hover {
 }
 
 #zone-header {
-    background-color: #F1F1F1;
     padding-top: 4px;
 }
+/*#zone-header {
+    background-color: #F1F1F1;
 #section-content .zone-wrapper .zone {
     background: none repeat scroll 0 0 #F1F1F1;
 }
 #zone-branding, #zone-menu  {
     background-color: #F1F1F1;
-    
-
-}
+}*/
 
 #zone-branding-wrapper, #zone-header-wrapper, #zone-content-grid-wrapper, #zone-menu-wrapper, #zone-preface-wrapper {
     /*background-color: #EFEEEA;*/
@@ -214,94 +213,10 @@ a:hover {
 }*/
 
 
-#block-views-base-announcement-block-1 .views-row {
-    float:left;
-    margin-left: 36px; 
-    height: 350px;
-    color: #000000;
-    padding: 5px;
-    overflow: hidden;
-}
-.views-slideshow-cycle-main-frame-row-item  {
-    padding-top: 4px;
-    width:250px;
-    border-right: 1px dotted #BABABA;
-    color: #333333;
 
+#zone-user-wrapper  {
 
 }
-#block-views-base-announcement-block-1  .views-field-title a {
-    color: #000000;
-    font-family: Arial,Helvetica,sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    padding-top: 6px;
-
-}
-#block-views-base-announcement-block-1 img {
-    background: none repeat scroll 0 0 #FFFFFF;
-    border: 1px solid #DDDDDD;
-    margin-top: 10px;
-    padding: 4px;
-
-
-}
-
-/*#views_slideshow_controls_text_previous_base_announcement-block_1  {
-    background: url("../images/slideshow-medium-grey-arrow-left.png") no-repeat scroll left center transparent;
-    cursor: pointer;
-    display: block;
-    height: 46px;
-    position: relative;
-    text-align: left;
-    text-indent: -9999px;
-    top: 160px;
-    width: 22px;
-    z-index: 100;
-
-}
-#views_slideshow_controls_text_next_base_announcement-block_1 {
-    background: url("../images/slideshow-medium-grey-arrow-right.png") no-repeat scroll left center transparent;
-    cursor: pointer;
-    display: block;
-    height: 46px;
-    float:right;
-    position: relative;
-    text-align: left;
-    text-indent: -9999px;
-    top: 115px;
-    width: 22px
-}*/
-.views-slideshow-controls-text-pause {
-    display:none;
-}
-#views_slideshow_controls_text_next_base_announcement-block_1, #views_slideshow_controls_text_previous_base_announcement-block_1  { 
-    background: url("../images/slideshow-medium-grey-arrows.png") no-repeat scroll left center transparent;
-    cursor: pointer;
-    display: block;
-    height: 46px;
-    left: 14px;
-    position: absolute;
-    text-align: left;
-    text-indent: -9999px;
-    top: 140px;
-    width: 22px;
-    z-index:200;
-}
-#views_slideshow_controls_text_previous_base_announcement-block_1  { 
-    background: url("../images/slideshow-medium-grey-arrow-right.png") no-repeat scroll left center transparent;
-    cursor: pointer;
-    display: block;
-    height: 46px;
-    left: 900px;
-    position: absolute;
-    text-align: left;
-    text-indent: -9999px;
-    top: 140px;
-    width: 22px;
-    z-index:200;
-}
-
 
 
 
