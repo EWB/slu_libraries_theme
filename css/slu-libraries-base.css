@@ -105,7 +105,7 @@ a:hover {
     
 }
 
-#region-content-grid-first, #region-content-grid-second, #region-content-grid-third, #region-content-grid-fourth {
+.front #region-content-grid-first, .front #region-content-grid-second, .front #region-content-grid-third, .front #region-content-grid-fourth {
     border-top: 3px solid #38211B;
 
 }
@@ -196,7 +196,7 @@ a:hover {
 }*/
 .view-featured-content img {
     background: none repeat scroll 0 0 #FFFFFF;
-    border: 1px solid #DDDDDD;
+    /*border: 1px solid #DDDDDD;*/
     margin-top: 10px;
     padding: 4px;
 
@@ -217,6 +217,12 @@ a:hover {
 #zone-user-wrapper  {
 
 }
+
+.form-item  #edit-field-ebook-subjects .form-select  {
+    height: 200px;
+
+}
+
 
 
 
