@@ -118,7 +118,7 @@ a:hover {
 #quicktabs-container-library_search_cluster     {
    
     min-height:50px;
-    background: url("../images/block-bg.png") repeat-x scroll left top transparent;
+    /*background: url("../images/block-bg.png") repeat-x scroll left top transparent;*/
     border-radius: 3px 3px 3px 3px;
     clear: both;
     overflow: hidden;
