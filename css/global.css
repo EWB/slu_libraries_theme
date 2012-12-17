@@ -773,11 +773,11 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
     padding-bottom: 0px;
 }
 
+/**************** Announcement - Find Page - Styling - START ***************************/
 
 .block-views-announcements-block .announcement-image .field-name-field-announcement-images img {
     margin-top: 0px;
 }
-
 
 .context-find .ds-2col-stacked .group-left  {
     float: left;
@@ -787,7 +787,16 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
     float: right;
     width: 65%;
 }
+.announcement-teaser p {
+    margin-bottom: 0px;
 
+}
+.announcement-teaser  {
+    margin-bottom: 12px;
+
+}
+
+/**************** Announcement - Find Page - Styling - END ***************************/
 
 
 
