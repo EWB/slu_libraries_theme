@@ -1,7 +1,9 @@
+
+
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
- #block-views-base-announcement-block-1 .views-row {
+ #block-views-base-announcement-block .views-row {
     float:left;
     margin-left: 36px; 
     height: 350px;
@@ -9,7 +11,7 @@
     padding: 5px;
     overflow: hidden;
 }
-.views-slideshow-cycle-main-frame-row-item  {
+#zone-postscript-wrapper .views-slideshow-cycle-main-frame-row-item  {
     padding-top: 4px;
     width:250px;
     border-right: 1px dotted #BABABA;
@@ -17,7 +19,7 @@
 
 
 }
-#block-views-base-announcement-block-1  .views-field-title a {
+#block-views-base-announcement-block  .views-field-title a {
     color: #000000;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 14px;
@@ -25,11 +27,17 @@
     padding-top: 6px;
 
 }
-#block-views-base-announcement-block-1 img {
+#block-views-base-announcement-block img {
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #DDDDDD;
     margin-top: 10px;
     padding: 4px;
+
+
+}
+
+#view-base-announcement  {
+    padding-bottom: 12px;
 
 
 }
@@ -62,7 +70,7 @@
 .views-slideshow-controls-text-pause {
     display:none;
 }
-#views_slideshow_controls_text_next_base_announcement-block_1, #views_slideshow_controls_text_previous_base_announcement-block_1  { 
+#views_slideshow_controls_text_next_base_announcement-block, #views_slideshow_controls_text_previous_base_announcement-block  { 
     background: url("../images/slideshow-medium-grey-arrows.png") no-repeat scroll left center transparent;
     cursor: pointer;
     display: block;
@@ -75,7 +83,7 @@
     width: 22px;
     z-index:200;
 }
-#views_slideshow_controls_text_previous_base_announcement-block_1  { 
+#views_slideshow_controls_text_previous_base_announcement-block  { 
     background: url("../images/slideshow-medium-grey-arrow-right.png") no-repeat scroll left center transparent;
     cursor: pointer;
     display: block;
@@ -88,3 +96,50 @@
     width: 22px;
     z-index:200;
 }
+.node-type-library-manuscript-collection  .container-12 .grid-9 {
+    width: 560px;
+}
+.node-type-base-announcement .container-12 .grid-6 {
+    width: 340px;
+}
+.field-name-field-manuscript-image img {
+    margin-top: 96px;
+
+}
+
+.block-quicktabs-library-search-cluster-mobile  {
+    display: none;
+
+}
+
+
+.logged-in .field-name-field-announcement-images img {
+    margin-top:140px;
+
+}
+
+#block-views-featured-block img {
+    height: 250px;
+    width: 400px;
+}
+
+.block-library-search-cluster {
+    display: block;
+}
+.library-menu-mobile {
+    display: none;
+}
+/**************** hide and seek - START ***************************/
+
+
+#block-views-base-announcement-block-1 {
+    display: none;
+
+}
+#block-views-base-announcement-block {
+    display: block;
+
+}
+
+/**************** hide and seek - END ***************************/
+

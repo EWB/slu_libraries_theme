@@ -1,0 +1,384 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    font-family: "Helvetica Neue","Helvetica","Arial";
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue","Helvetica","Arial";
+}
+h1 {
+    font-size: 26px;
+}
+h2.block-title {
+    letter-spacing: 0;
+    margin-bottom: 12px;
+    margin-top: 9px;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+a:hover {
+    color: #669900;
+}
+#zone-user-wrapper {
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 40px;
+}
+#zone-user-wrapper a {
+    color: #FFFFFF;
+    float: right;
+    text-decoration: none;
+}
+#zone-branding {
+	
+ 	background-image: url(../images/header-blue-w-seal.png);
+	box-shadow: 0 0 10px #000000;
+}
+#zone-branding-wrapper {
+	background-color: #3A88C0;
+	border-bottom: 5px solid #000000;
+	border-top: 1px solid #CCCCCC;
+}
+#zone-header {
+	background-color:#FFF;
+	padding-top:24px;
+	
+}
+#zone-header p {
+    margin-bottom: 0;
+}
+#zone-header-wrapper {
+	background-color: #C7C5BA;
+	
+}
+#zone-menu-wrapper {
+    background: none repeat scroll 0 0 #003366;
+    border-bottom: 1px solid #000000;
+    /*padding-bottom: 7px;
+    padding-top: 7px;*/
+}
+#zone-menu {
+	    box-shadow: 0 0 10px #000000;
+}
+	
+#zone-content {
+    background-color: #FFFFFF;
+}
+
+#section-content {
+    background: none repeat scroll 0 0 #E1DFD6;
+}
+#section-content .zone-wrapper .zone {
+    background: none repeat scroll 0 0 #FFFFFF;
+    /*box-shadow: 0 0 10px #888888;*/
+}
+#zone-footer-wrapper {
+    background: none repeat scroll 0 0 #333333;
+    color: #CCCCCC;
+    min-height: 60px;
+}
+#region-footer-second {
+    padding-top: 24px;
+}
+#main-menu li a:link, #main-menu li a:visited {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    padding-left: 12px;
+    text-decoration: none;
+}
+#zone-preface {
+}
+
+#first-time {
+    display: none;
+}
+#zone-preface {
+}
+#zone-preface .block {
+    padding: 0 14px 0 12px;
+}
+.block ul {
+    margin-left: 15px;
+    padding-left: 15px;
+}
+#zone-postscript {
+    background-color: #FFFFFF;
+    border-top: medium none;
+}
+
+.not-front .zone-content {
+    box-shadow: 0 0 10px #888888;
+}
+
+.front h1 {
+    display: none;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #006699;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+#block-boxes-library-utility-links   {
+	background-color:#666;
+}
+
+#block-boxes-library-utility-links a {
+    color: #FFFFFF;
+    padding: 0 6px 0 10px;
+}
+
+
+
+
+
+/* Quicktabs - Sky theme style
+ * http://drupal.org/project/sky
+ */
+
+#quicktabs-library_search_cluster .quicktabs_main.quicktabs-style-sky {
+  border: none;
+  clear: both;
+  padding: 20px 5px 0 5px;
+  position: relative;
+  top: 0em;
+/*  background-color: #A30D01;
+*/  background: url("../images/shine-bg-tan-s.png") repeat-x scroll 0 0 #FFFFFF;
+/*  
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 0 3px #666666;*/
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color:#000;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li {
+  float: left;
+  font-weight: normal;
+  list-style: none;
+  margin: 0em 0 0em 0;
+  height: 2em;
+  min-height: 2em;
+  padding: 0;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li.active {
+  margin: 0em 0 0 0;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li a, #quicktabs-library_search_cluster
+ul.quicktabs-tabs.quicktabs-style-sky li a:visited {
+  float: left;
+  display: block;
+  height: 2em;
+  min-height: 2em;
+  line-height: 2em;
+  padding: 0 12px 0 12px;
+  text-decoration: none;
+  border-right: 1px solid #eee;
+  border-top: 1px solid #eee;
+  font-size: .95em;
+  background: #fff url('../images/bg-shade-light.png') repeat-x bottom left;
+  color: #777;
+  position: relative;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li a:hover, #quicktabs-library_search_cluster
+ul.quicktabs-tabs.quicktabs-style-sky li.active a:hover {
+  text-decoration: none;
+  border-color: #B3B3B3;
+  /*background: #B3B3B3 url('../images/bg-shade-medium.png') repeat-x bottom left;*/
+  background-color:#333;
+  color: #fff;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li.active a, #quicktabs-library_search_cluster
+ul.quicktabs-tabs.quicktabs-style-sky li.active a:visited {
+  height: 2em;
+  min-height: 2em;
+  line-height: 2em;
+  font-weight: normal;
+  border: 1px solid #eee;
+/*  background: #858585 url('../images/bg-shade-dark.png') repeat-x bottom left;
+*/  
+	background:#000;
+	border-color: #555;
+  color: #fff;
+  font-size: .95em;
+  font-weight: normal;
+  top: 0em;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li:first-child a {
+  border-left: solid 1px #eee;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li.active a {
+  border-left: solid 1px #777;
+}
+
+#quicktabs-library_search_cluster ul.quicktabs-tabs.quicktabs-style-sky li a:focus, #quicktabs-library_search_cluster
+ul.quicktabs-tabs.quicktabs-style-sky li a:active {
+  outline: none;
+  
+}
+#quicktabs-library_search_cluster {
+
+	/*background: #FFFFFF url('../images/shine-bg-tan-s.png') repeat-x scroll 0 0;
+	border: 1px solid;
+    height: 110px;*/
+	
+}
+.quicktabs_main.quicktabs-style-sky {
+    background: #CCC;
+    border: none;
+    clear: both;
+    padding: 10px 5px 0;
+    position: relative;
+    top: 0em;
+}
+
+
+#quicktabs-library_search_cluster  #boxes-box-odysseus p {
+	display:inline;
+	
+	}
+
+
+#quicktabs-library_search_cluster  #block-boxes-journal-search, #quicktabs-library_search_cluster  #boxes-box-odysseus, #quicktabs-library_search_cluster #block-boxes-encore, 
+#quicktabs-library_search_cluster  #block-boxes-journal-search, #quicktabs-library_search_cluster #block-search-form	 {
+	padding-left:25px;
+	min-height:60px;
+	
+}
+
+/*********** Search Cluster Style Overrides **************/
+
+#quicktabs-library_search_cluster  {
+	background-color: #666666;
+	margin-top: 16px;
+	border: 1px solid #666;
+}
+ul.quicktabs-tabs.quicktabs-style-zen {
+	/*background-color:#FFF;*/
+	
+}
+
+#quicktabs-container-library_search_cluster .quicktabs-tabpage  {
+	padding-top:22px;
+	padding-bottom:8px;
+	
+}
+
+ul.quicktabs-tabs.quicktabs-style-basic li.active {  
+	background-color:#666666;
+	border-style: none;
+    border-width: 0px;
+	color:#FFF;
+
+}
+ul.quicktabs-tabs.quicktabs-style-basic li.active a {
+    color: #FFF;
+}
+.quicktabs_main.quicktabs-style-basic {
+	background-color:#666666;
+	background: url("../images/shine-bg-tan-s.png") repeat-x scroll 0 0 #FFFFFF;
+	
+}
+
+
+
+
+#boxes-box-library_help_front {
+	padding-top:18px;	
+	
+}
+#block-boxes-library-databases-a-z-frontpage .content   {
+	display:inline-block;
+	
+}
+
+
+#boxes-box-library_humanities_links ul, #boxes-box-library_sciences_links ul, #boxes-box-library_social_sciences_links ul, #boxes-box-library_general_sources_links ul, #boxes-box-library_interdisciplinary_links ul   {
+    line-height: 1.4em;
+    list-style: none outside none;
+    margin-left: 4px;
+    padding-left: 4px;
+}
+
+#zone-content-grid h2.block-title  {
+	 color: #9F0000;
+    font-size: 1.3em;
+    font-weight: bold;
+	line-height:1em;
+	
+}
+
+#block-boxes-library-research-tools h2 {
+	
+    background-color:#528898;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding: 5px;
+}
+#block-boxes-library-research-tools  h2.block-title {	
+	color:#FFF;
+}
+#block-boxes-library-research-tools, #block-boxes-library-hours-block-placeholder  {
+	padding: 4px;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 0 3px #ccc;
+	margin-bottom: 12px;
+	
+}
+#block-boxes-library-hours-block-placeholder h2 {
+	background-color: #436135;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+	margin-top: 0;
+	padding: 5px;
+}
+#block-boxes-library-hours-block-placeholder  h2.block-title {	
+	color:#FFF;
+}
+#block-boxes-library-hours-block-placeholder .boxes-box, #block-boxes-library-research-tools .boxes-box {	
+	padding-left:12px;
+}
+
+#boxes-box-library_image_frontpage img {
+		padding: 4px;
+		border: 1px solid #DDDDDD;
+		box-shadow: 0 0 3px #ccc;
+		margin-left:28px;
+	
+}
+#boxes-box-library_databases_a_z_frontpage img, #boxes-box-library_course_resources_front  img{
+		border: 1px solid #DDDDDD;
+		box-shadow: 0 0 3px #ccc;
+	
+}
+
+
+.form-item-search-block-form #edit-search-block-form--2  {
+	width:170px;	
+	font-size:.9em;
+	height:1.7em;
+	
+}
+#search-block-form  {
+	position:relative;
+	top:-40px;
+	float:right;
+	
+}
+

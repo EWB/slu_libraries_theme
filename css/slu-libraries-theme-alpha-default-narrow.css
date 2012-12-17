@@ -2,4 +2,24 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
+#zone-content {
+	min-height: 700px;
 
+}
+
+.logo-img img {
+    width:320px;
+
+}
+
+
+.block-nice-menus-2 {
+    display: block;
+}
+.my-menu {
+	display: block;
+}
+#region-branding-second #block-search-form {
+    display: block;
+
+}
