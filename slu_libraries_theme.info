@@ -46,6 +46,7 @@ css[global.css][options][weight] = '10'
 css[slu-libraries-base.css][name] = 'Custom styles'
 css[slu-libraries-base.css][description] = 'This file holds all active custom CSS of your theme.'
 css[slu-libraries-base.css][options][weight] = '11'
+stylesheets[print][] = css/print.css
 settings[alpha_grid] = 'alpha_default'
 settings[alpha_primary_alpha_default] = 'normal'
 settings[alpha_responsive] = '1'

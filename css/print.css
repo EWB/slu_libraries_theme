@@ -1,0 +1,22 @@
+#zone-user-wrapper,
+#zone-header-wrapper,
+#zone-menu-wrapper,
+#zone-preface-wrapper,
+#zone-preface,
+#region-sidebar-first,
+#region-sidebar-second,
+#zone-postscript-wrapper,
+#section-footer,#zone-branding
+{
+display: none;
+}
+#zone-branding  {
+
+}
+#region-content{
+width: 100%;
+clear: both;
+display: block;
+position: relative;
+top: 50px;
+}

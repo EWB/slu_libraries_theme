@@ -2,6 +2,7 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
+
 #zone-content {
 	min-height: 700px;
 
@@ -11,7 +12,7 @@
     width:320px;
 
 }
-
+/**************** hide and seek - START ***************************/
 
 .block-nice-menus-2 {
     display: block;
@@ -22,4 +23,25 @@
 #region-branding-second #block-search-form {
     display: block;
 
+}
+#block-views-base-announcement-block {
+    display: none;
+
+}
+#block-views-base-announcement-block-1 {
+	display: none;
+}
+
+#block-views-base-announcement-block-3 {
+    display: block;
+
+}
+.block-superfish-1 {
+    display: block;
+}
+.block-superfish-2 {
+    display: none;
+}
+.block-superfish-3 {
+    display: block;
 }

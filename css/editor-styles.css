@@ -1,0 +1,106 @@
+h2, h3, h4, h5, h6 {
+  font-family: serif;
+  font-weight: bold !important;
+  margin-bottom: 10px;
+}
+
+html body#tinymce.mceContentBody h2 {
+  font-size: 28px !important;
+}
+
+html body#tinymce.mceContentBody h3 {
+  font-size: 24px !important;
+}
+
+html body#tinymce.mceContentBody h4 {
+  font-size: 22px !important;
+}
+
+html body#tinymce.mceContentBody h5 {
+  font-size: 20px !important;
+}
+
+html body#tinymce.mceContentBody h6 {
+  font-size: 18px !important;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+ 
+p, span, li, p span, div {
+  font-face: sans-serif;
+  font-size: 16px;
+}
+
+p.dropcap:first-letter, p span.dropcap:first-letter {
+  background: #ccc;
+  display: block;
+  float: left;
+  font-size: 18px;
+  margin: 5px 5px 0 0;
+  padding: 10px;
+}
+
+blockquote {
+  border-left: 3px solid;
+  border-left-color: #ccc;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+blockquote p {
+  font-size: 13px;
+  font-style: italic;
+}
+
+span.pullquote-right,
+span.pullquote-left {
+	color: #0C0 !important;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+p.resp-video, div.resp-video {
+  height: 0;
+  position: relative;
+  padding-bottom: 56.25%; /* 16/9 ratio */
+}
+
+.resp-video iframe,
+.resp-video object,
+.resp-video embed {
+  border: 1px solid;
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.image-left {
+  float: left;
+  margin: 5px 15px 5px 0;
+  max-width: 100%;
+}
+
+.image-right {
+  float: right;
+  margin: 5px 0 5px 15px;
+  max-width: 100%;
+}
+
+p.two-column-first, div.two-column-first, span.two-column-first {
+  display: block;
+  float: left;
+  width: 47%;
+}
+
+p.two-column-last, div.two-column-last, span.two-column-last {
+  display: block;
+  float: right;
+  width: 47%;
+}
