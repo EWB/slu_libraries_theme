@@ -3,7 +3,7 @@
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
-#zone-branding {
+/*#zone-branding {
     
     background-image: url(../images/header-blue-w-seal.png);
     background-color: #7BB4E1;
@@ -11,10 +11,10 @@
     padding-top: 0px;
     padding-bottom: 0px;
     height: 120px;
-} 
-#zone-branding img { 
+} */
+/*#zone-branding img { 
     padding-top: 40px;
-  }
+  }*/
 #block-search-form {
       padding-top: 60px;
 

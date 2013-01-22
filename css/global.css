@@ -65,28 +65,39 @@ h3, h4, h5, h6 {
 #zone-branding {
     
    /* background-image: url(../images/header-blue-w-seal.png);*/
-    background-color: #488ABE;
+/*     background-color: #488ABE;
     background-color:#7BB4E1;
-    box-shadow: 0 0 10px #000000;
+   box-shadow: 0 0 10px #000000;
     padding-top: 28px;
-    padding-bottom: 4px;
+   padding-bottom: 4px;*/ 
 }
 /*blue*/
-#zone-branding-wrapper {
+/*scarlet*/
+#zone-branding {
+    
+   /* background-image: url(../images/header-blue-w-seal.png);*/
+    
+    background-color:#A90018;
+/*     box-shadow: 0 0 10px #000000;
+   padding-top: 28px;
+   padding-bottom: 4px;*/ 
+}
+/*scarlet*/
+/*#zone-branding-wrapper {
     background-image: url(../images/branding-bg.png);
     background-repeat: repeat-x;
     background-color: #477AAD;
     border-bottom: 5px solid #000000;
     border-top: 1px solid #CCCCCC;
-}
+}*/
 
 #zone-menu-wrapper {
-    background: none repeat scroll 0 0 #01264C;
+    background: none repeat scroll 0 0 #4B2B23;
     border-bottom: 1px solid #000000;
 }
 #zone-menu {
-    background-color: #003366;
-    box-shadow: 0 0 10px #000000;
+    background-color: #3C221C;
+ /*   box-shadow: 0 0 10px #000000;*/
     z-index: 100px;
 
 }
@@ -215,8 +226,8 @@ a:hover {
 
     
 #section-footer  {
+
     background-color: #3C221C;
-    background-color: #003366;
     border-top: 2px solid #4A2B23;
     height: 240px;
     color:#ffffff;
@@ -224,9 +235,9 @@ a:hover {
 }
 #zone-footer-wrapper{
     background-color: #4B2B23;
-    border-bottom: 1px solid #38201A;
+    border-bottom: 1px solid #000;
     border-bottom: 1px solid #666666;
-    background-color: #002A54;
+    
     padding-top: 25px;
     color:#ffffff;
     
@@ -242,9 +253,11 @@ a:hover {
     padding-top: 4px;
 }
 
-
-#zone-branding-wrapper, #zone-header-wrapper, #zone-content-grid-wrapper, #zone-menu-wrapper, #zone-preface-wrapper {
+#zone-branding-wrapper {
+    background-color: #E0DED2;
     
+}
+#zone-header-wrapper, #zone-content-grid-wrapper, #zone-menu-wrapper, #zone-preface-wrapper {
     
 }
 
@@ -616,11 +629,11 @@ ul.nice-menu-down li li.menuparent:hover {
 
 /*Image handling*/
 
-.logo-img img {
+/*.logo-img img {
     width:280px;
 
 }
-
+*/
 #block-views-featured-block img {
     width: 300px;
     height: 188px;
@@ -935,20 +948,20 @@ ul.primary li a  {
     padding: 0;
 }
 .sf-menu.sf-style-blue li, .sf-menu.sf-style-blue.sf-navbar {
-    background: none repeat scroll 0 0 #003366;
+    background: none repeat scroll 0 0 #3C221C;
 }
 .sf-menu.sf-style-blue li li {
-    background: none repeat scroll 0 0 #0151A4;
+    background: none repeat scroll 0 0 #3C221C;
 }
 .sf-menu.sf-style-blue li li li {
-    background: none repeat scroll 0 0 #00478F;
+    background: none repeat scroll 0 0 #3C221C;
 }
 .sf-menu.sf-style-blue li:hover, .sf-menu.sf-style-blue li.sfHover, .sf-menu.sf-style-blue li.active a, .sf-menu.sf-style-blue a:focus, .sf-menu.sf-style-blue a:hover, .sf-menu.sf-style-blue a:active, .sf-menu.sf-style-blue.sf-navbar li li {
-    background: none repeat scroll 0 0 #3270C5;
+    background: none repeat scroll 0 0 #3C221C;
     color: #FFEA00;
 }
 .sf-menu.sf-style-blue.sf-navbar li ul {
-    background-color: #003366;
+    background-color: #3C221C;
 }
 .sf-menu.sf-style-blue {
     margin-bottom: 0em;
