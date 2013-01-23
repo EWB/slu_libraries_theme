@@ -60,17 +60,22 @@ h3, h4, h5, h6 {
 
 }
 
+#zone-branding-wrapper {
+            background-color:#A90018;
 
+
+}
 /*blue*/
 #zone-branding {
-    
+        background-color:#A90018;
+}
    /* background-image: url(../images/header-blue-w-seal.png);*/
 /*     background-color: #488ABE;
     background-color:#7BB4E1;
    box-shadow: 0 0 10px #000000;
     padding-top: 28px;
    padding-bottom: 4px;*/ 
-}
+
 /*blue*/
 /*scarlet*/
 #zone-branding {
@@ -253,10 +258,7 @@ a:hover {
     padding-top: 4px;
 }
 
-#zone-branding-wrapper {
-    background-color: #E0DED2;
-    
-}
+
 #zone-header-wrapper, #zone-content-grid-wrapper, #zone-menu-wrapper, #zone-preface-wrapper {
     
 }
