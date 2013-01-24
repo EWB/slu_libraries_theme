@@ -36,6 +36,9 @@
     display: block;
 
 }
+#block-views-base-announcement-block-4 {
+    display: none;
+}
 .block-superfish-1 {
     display: block;
 }

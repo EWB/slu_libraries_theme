@@ -374,7 +374,7 @@ ul.quicktabs_tabs.quicktabs-style-zen{
 }
 
 
-.ui-tabs .ui-tabs-panel {
+#block-quicktabs-library-search-cluster .ui-tabs .ui-tabs-panel {
     border: 1px solid #DDDDDD;
     height: 70px;
     background-color: #ffffff;
@@ -383,6 +383,12 @@ ul.quicktabs_tabs.quicktabs-style-zen{
     border-radius: 6px;
 }
 
+#block-quicktabs-printing .ui-tabs .ui-tabs-panel {
+    border: 1px solid #DDDDDD;
+    background-color: #C7C5BA;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
 .ui-tabs .ui-tabs-nav li a {
     padding: 0.1em 1em;
 
