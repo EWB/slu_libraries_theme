@@ -686,6 +686,20 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
 .view-library-resource-listing .views-field-field-database-coverage {
     margin-bottom: 20px;
 }
+
+.views-field-field-database-link a.database-link {
+    font-size: 1.2em;
+  
+}
+.views-field-field-database-link a.colorbox-node {
+    font-style: italic;
+  
+}
+.view-library-resource-listing .views-table {
+    border: none;
+    width: 100%;
+}
+
 .views-field-field-database-coverage  {
     font-style: italic;
 }
@@ -782,7 +796,6 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
     border: 1px solid #DDDDDD;
     margin-top: 10px;
     padding: 4px;
-
 
 }
 
