@@ -59,6 +59,24 @@
 
 }
 
+/*University Librarians Slideshow/Chronology
+*/
+#block-views-slideshow-block-4 .views-slideshow-cycle-main-frame-row-item  {
+    padding-top: 4px;
+    width:183px;
+    border-right: 1px dotted #BABABA;
+    color: #333333;
+
+
+}
+#block-views-slideshow-block-4 .views-row {
+    float:left;
+    margin-left: 30px; 
+    height: 350px;
+    color: #000000;
+    padding: 5px;
+    overflow: hidden;
+}
 /*#views_slideshow_controls_text_previous_base_announcement-block_1  {
     background: url("../images/slideshow-medium-grey-arrow-left.png") no-repeat scroll left center transparent;
     cursor: pointer;
@@ -127,6 +145,7 @@
 .field-name-field-announcement-images  {
     float: left;
     margin-right: 18px;
+    width:280px;
 }
 
 .node-type-library-staff-profile .container-12 .grid-9 {
