@@ -786,7 +786,13 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
 
 }
 
+.field-name-field-announcement-images  {
 
+    width:250px;
+}
+.node-base-announcement .flexslider {
+    border: none;
+}
 
 /**************** Mobile Announcements Styling - END ***************************/
 

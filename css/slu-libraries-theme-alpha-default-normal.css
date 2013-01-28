@@ -142,10 +142,16 @@
 
 }*/
 
+.node-base-announcement .field-name-body ul li{
+}
+
+.node-base-announcement .flexslider {
+    border: none;
+}
 .field-name-field-announcement-images  {
     float: left;
-    margin-right: 18px;
-    width:280px;
+    margin-right: 32px;
+    width:250px;
 }
 
 .node-type-library-staff-profile .container-12 .grid-9 {
