@@ -313,6 +313,29 @@ a:hover {
     display:inline;
     }
 
+#quicktabs-special_collections_search_clust #block-boxes-manuscript-search p {
+     display:inline;
+
+} 
+#block-quicktabs-special-collections-search-clust h2.block-title {
+    display: none;
+}
+#qt-special_collections_search_clust-ui-tabs1, #qt-special_collections_search_clust-ui-tabs2  {
+    border: 1px solid #DDDDDD;
+    height: 70px;
+    background-color: #ffffff;
+    background-color: #C7C5BA;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+#boxes-box-manuscript_search .form-type-textfield input {
+
+    width: 200px;
+}
+#boxes-box-manuscript_search label, #boxes-box-manuscript_search .form-item-retain-filters {
+    display: none;
+}
+
 #quicktabs-library_video_search_cluster  #boxes-box-video_search p {
     display:inline;
     
@@ -805,6 +828,17 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
 }
 .node-base-announcement .flexslider {
     border: none;
+    box-shadow: none;
+}
+
+.node-base-announcement .flex-caption  {
+    font-size: .8em; 
+    color: #666666; 
+    font-style: italic; 
+    padding-left:4px; 
+    padding-right:4px;
+    font-weight: normal;
+
 }
 
 /**************** Mobile Announcements Styling - END ***************************/
@@ -1319,5 +1353,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     display: none;
 
 }
+
+
 
 
