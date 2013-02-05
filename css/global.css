@@ -1381,6 +1381,10 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     padding: 0;
     padding-left: 16px;
 }
+.not-front .region-sidebar-second  .block {  
+    padding-left: 4px;
+
+    }
 .not-front .region-sidebar-first .block ul li, .not-front .region-sidebar-second  .block ul li {
     border-bottom: 1px dotted #D1D3CE;
     list-style-image: url("");
