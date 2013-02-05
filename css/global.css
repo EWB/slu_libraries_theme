@@ -1364,6 +1364,29 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 
 }
 
+/******************** block styles ****************************/
 
+.region-sidebar-first .block h2.block-title, .region-sidebar-second .block h2.block-title  {
+    color: #A90018;
+    font-family: open_sansbold,arial;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding-left: 5px;
+}
+.region-sidebar-first .block, .region-sidebar-second  .block {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #D1D3CE;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 5px;
+    padding: 0;
+    padding-left: 16px;
+}
+.region-sidebar-first .block ul li, .region-sidebar-second  .block ul li {
+  border-bottom: 1px dotted #D1D3CE;
+    list-style-image: url("");
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+
+}
 
 
