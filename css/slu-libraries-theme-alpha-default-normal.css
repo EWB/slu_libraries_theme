@@ -151,9 +151,11 @@
 .field-name-field-announcement-images  {
     float: left;
     margin-right: 32px;
-    width:250px;
+/*    width:250px;
+*/}
+.node-type-base-announcement .field-name-field-announcement-images  {
+   width:250px;
 }
-
 .node-type-library-staff-profile .container-12 .grid-9 {
     width: 580px;
 }
@@ -376,6 +378,11 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
   margin-right: 18px;
   padding-left: 18px;
 
+}
+ .node-type-general-content .block-announcements-block .field-type-image {
+    float: right;
+    margin-right: 0px;
+    padding-left: 0px;
 }
 
 .view-citation-guides tr {

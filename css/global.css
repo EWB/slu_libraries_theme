@@ -822,9 +822,19 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
 
 }
 
-.field-name-field-announcement-images  {
+.field-name-field-announcement-images img {
 
     width:250px;
+}
+.block-announcements-block .field-name-field-announcement-images img {
+
+    width:100px;
+}
+
+ .block-announcements-block .field-type-image {
+    float: right;
+    margin-right: 0px;
+    padding-left: 0px;
 }
 .node-base-announcement .flexslider {
     border: none;
