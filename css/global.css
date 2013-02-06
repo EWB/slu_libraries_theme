@@ -1365,25 +1365,29 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 
 /******************** SLU block styles ****************************/
 
-.not-front .region-sidebar-first .block h2.block-title, .not-front .region-sidebar-second .block h2.block-title  {
+/*.not-front .region-sidebar-first .block h2.block-title, .not-front .region-sidebar-second .block h2.block-title  {
     color: #A90018;
     font-family: open_sansbold,arial;
     font-size: 1.2em;
     line-height: 1.5em;
     padding-left: 5px;
+}*/
+.not-front .region-sidebar-first .block , .not-front .region-sidebar-second  .block  {
+        border: 1px solid #D1D3CE;
+        border-radius: 5px 5px 5px 5px;
+        margin-bottom: 5px;
+        padding: 0;
+
 }
-.not-front .region-sidebar-first .block, .not-front .region-sidebar-second  .block {
-    background: none repeat scroll 0 0 #F5F5F5;
-    border: 1px solid #D1D3CE;
-    border-radius: 5px 5px 5px 5px;
-    margin-bottom: 5px;
-    padding: 0;
-    padding-left: 16px;
-}
-.not-front .region-sidebar-second  .block {  
+.not-front .region-sidebar-first .block .content, .not-front .region-sidebar-second  .block .content {
+/*    background: none repeat scroll 0 0 #F5F5F5;
+*/  
+/*    padding-left: 16px;
+*/}
+/*.not-front .region-sidebar-second  .block {  
     padding-left: 4px;
 
-    }
+    }*/
 .not-front .region-sidebar-second .block-boxes .content {  
     padding-left: 18px;
 
@@ -1393,7 +1397,8 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     list-style-image: url("");
     margin-bottom: 5px;
     padding-bottom: 5px;
-    padding-left: 3px;
+    padding-left: 1em;
+    text-indent: -1.0em;
 
 }
 .front .region-sidebar-first .block, .front .region-sidebar-second  .block {
@@ -1404,6 +1409,23 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     padding: 0;
     padding-left: 2px;
     padding-right:2px;
+}
+
+.not-front h2.block-title {
+    font-size: 1em;
+    margin: 0 0 9px 0;
+    padding: 6px 15px 5px;
+    text-transform: uppercase;
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #4B2B23;
+    border-color: -moz-use-text-color -moz-use-text-color #333333;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    color: #FFFFFF;
 }
 
 
