@@ -1428,4 +1428,8 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     color: #FFFFFF;
 }
 
+.block ul li.leaf {
+    list-style-image: none;
+    list-style-type: none;
+}
 
