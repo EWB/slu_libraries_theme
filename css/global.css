@@ -1070,7 +1070,7 @@ p.two-column-last, div.two-column-last, span.two-column-last {
     width: 100%;
 }
 
-
+/*
 .context-special-collections h2.block-title {
     font-size: 1em;
     margin: 0 0 1px;
@@ -1087,7 +1087,6 @@ p.two-column-last, div.two-column-last, span.two-column-last {
     border-width: medium medium 1px;
     color: #FFFFFF;
 
-    /*ewb*/
     border-color: -moz-use-text-color -moz-use-text-color #333333;
     border-style: none none solid;
     border-width: medium medium 1px;
@@ -1105,8 +1104,8 @@ p.two-column-last, div.two-column-last, span.two-column-last {
         padding-top: 6px;
 
 
-}
-.context-music-library h2.block-title {
+}*/
+/*.context-music-library h2.block-title {
     font-size: 1em;
     margin: 0 0 1px;
     padding: 6px 15px 5px;
@@ -1128,7 +1127,7 @@ p.two-column-last, div.two-column-last, span.two-column-last {
         padding-top: 6px;
 
 
-}
+}*/
 .context-resources h2.block-title {
     font-size: 1em;
     margin: 0 0 1px;
@@ -1364,7 +1363,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 
 }
 
-/******************** block styles ****************************/
+/******************** SLU block styles ****************************/
 
 .not-front .region-sidebar-first .block h2.block-title, .not-front .region-sidebar-second .block h2.block-title  {
     color: #A90018;
@@ -1385,11 +1384,16 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     padding-left: 4px;
 
     }
-.not-front .region-sidebar-first .block ul li, .not-front .region-sidebar-second  .block ul li {
+.not-front .region-sidebar-second .block-boxes .content {  
+    padding-left: 18px;
+
+    }    
+.not-front .region-sidebar-first .block .content ul li, .not-front .region-sidebar-second .block .content ul li {
     border-bottom: 1px dotted #D1D3CE;
     list-style-image: url("");
     margin-bottom: 5px;
     padding-bottom: 5px;
+    padding-left: 3px;
 
 }
 .front .region-sidebar-first .block, .front .region-sidebar-second  .block {
