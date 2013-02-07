@@ -462,4 +462,8 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
 
 }
 
+#block-quicktabs-special-collections-search-clust {
+      width: 520px;  
+      margin-left: 60px;
+}
 

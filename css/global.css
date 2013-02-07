@@ -317,6 +317,15 @@ a:hover {
      display:inline;
 
 } 
+
+#block-quicktabs-special-collections-search-clust  #search-form  {
+    padding-top: 15px;
+    padding-left: 45px;
+
+}
+#block-quicktabs-special-collections-search-clust {
+      width: 320px;  
+}
 #block-quicktabs-special-collections-search-clust h2.block-title {
     display: none;
 }
