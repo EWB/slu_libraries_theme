@@ -408,8 +408,8 @@ ul.quicktabs_tabs.quicktabs-style-zen{
 
 #block-quicktabs-printing .ui-tabs .ui-tabs-panel {
     border: 1px solid #DDDDDD;
-    background-color: #C7C5BA;
-    -moz-border-radius: 6px;
+/*    background-color: #C7C5BA;
+*/    -moz-border-radius: 6px;
     border-radius: 6px;
 }
 .ui-tabs .ui-tabs-nav li a {
@@ -1437,4 +1437,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     border:none;
 
 }
+
+
+
 
