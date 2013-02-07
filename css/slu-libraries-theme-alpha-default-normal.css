@@ -134,6 +134,13 @@
 .node-type-library-manuscript-collection  .container-12 .grid-9 {
     width: 560px;
 }
+.view-manuscript-collections .views-field-field-manuscript-image img {
+    float: left;
+    padding-top: 8px;
+    padding-right: 14px;
+
+}
+
 /*.node-type-base-announcement .container-12 .grid-6 {
     width: 340px;
 }

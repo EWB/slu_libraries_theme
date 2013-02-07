@@ -1446,7 +1446,28 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     border:none;
 
 }
+.view-manuscript-collections .views-field-field-manuscript-finding-aid {
+        padding-bottom: 12px;
+}
+.view-manuscript-collections .views-field-field-manuscript-image {
+            padding-bottom: 12px;
 
+}
+.view-manuscript-collections .views-field-title  {
+
+    clear:both;
+    border-top: 1px dotted #CCCCCC;
+    color: #323E5C;
+    font-size: 17px;
+    line-height: 115%;
+    margin: 0.7em 0;
+    padding-top: 14px;
+    padding-bottom: 2px;
+}
+
+.view-manuscript-collections  {
+    padding-bottom: 24px;
+}
 
 
 
