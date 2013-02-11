@@ -163,9 +163,22 @@
 .node-type-base-announcement .field-name-field-announcement-images  {
    width:250px;
 }
-.node-type-library-staff-profile .container-12 .grid-9 {
+/*.node-type-library-staff-profile .container-12 .grid-9 {
     width: 580px;
+}*/
+
+.node-type-library-staff-profile .field-name-field-staff-profile-photograph {
+      float: left;
+      margin-right: 24px;
+      margin-top: 14px;
 }
+.field-name-field-staff-profile-email {
+  clear:both;
+}
+.field-name-field-staff-profile-bio  {
+      margin-top: 18px;
+}
+
 
 .node-type-library-manuscript-collection .field-name-field-manuscript-image img {
     margin-top: 106px;
