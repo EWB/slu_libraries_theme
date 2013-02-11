@@ -469,6 +469,10 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
 
 }
 
+.page-node .block-main .node-general-content {
+    padding-left: 24px;
+}
+
 #block-quicktabs-special-collections-search-clust {
       width: 520px;  
       margin-left: 60px;

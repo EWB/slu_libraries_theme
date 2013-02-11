@@ -1386,7 +1386,14 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
         border-radius: 5px 5px 5px 5px;
         margin-bottom: 5px;
         padding: 0;
+}
+.not-front .region-sidebar-first #block-ds-extras-omega-right-column , .not-front .region-sidebar-second #block-ds-extras-omega-right-column {
+        border: none;
+        border-radius: 0px;
+        margin-bottom: 0px;
+        padding: 0;
 
+}
 }
 .not-front .region-sidebar-first .block .content, .not-front .region-sidebar-second  .block .content {
 /*    background: none repeat scroll 0 0 #F5F5F5;
@@ -1469,5 +1476,24 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     padding-bottom: 24px;
 }
 
+.field-type-phone  {
+    background-image: url(../images/phone-32-32.png);
+    height: 32px;
+    margin-bottom: 0;
+    padding: 3px 0 0 22px;
+    background-repeat: no-repeat;
 
-
+}
+.field-type-phone .field-item {
+    padding-left: 8px;
+    }
+.field-type-email {
+    background-image: url(../images/email-32-32.png);
+    height: 32px;
+    margin-bottom: 0;
+    padding: 3px 0 0 22px;
+    background-repeat: no-repeat;
+}
+.field-type-email .field-item {
+    padding-left: 14px;
+    }
