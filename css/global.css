@@ -367,10 +367,17 @@ a:hover {
     display:inline;
     
     } 
+#block-quicktabs-library-video-search-cluster .ui-tabs-panel {
+    border: 1px solid #DDDDDD;
+    border-radius: 6px 6px 6px 6px;
+    color: #222222;
+    background-color: #C7C5BA;
+}     
 #quicktabs-library_book_search_cluster  .ui-tabs-panel {
     border: 1px solid #DDDDDD;
     border-radius: 6px 6px 6px 6px;
     color: #222222;
+    background-color: #C7C5BA;
 }
 ul.quicktabs-tabs.quicktabs-style-zen {
     background: url("images/tab-bar.png") repeat-x scroll left bottom transparent;
