@@ -1524,3 +1524,29 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 .field-type-email .field-item {
     padding-left: 14px;
     }
+
+
+div.error, table tr.error {
+    background-color: #FFFFFF;
+}
+.page-search404 #breadcrumb {
+    background-image: url("../images/kilroy.png");
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.page-search404 div.error, .error {
+    color: #8C2E0B;
+}
+
+.page-search404 div.error {
+    border-color: none;
+}
+
+.page-search404 div.messages {
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 6px 0;
+    padding: 10px 10px 10px 50px;
+}    
