@@ -367,28 +367,47 @@ a:hover {
     display:inline;
     
     } 
-
+#quicktabs-library_book_search_cluster  .ui-tabs-panel {
+    border: 1px solid #DDDDDD;
+    border-radius: 6px 6px 6px 6px;
+    color: #222222;
+}
 ul.quicktabs-tabs.quicktabs-style-zen {
     background: url("images/tab-bar.png") repeat-x scroll left bottom transparent;
     font-size: 1em;
     height: 0px;
 
 }        
-ul.quicktabs_tabs.quicktabs-style-zen{
+ul.quicktabs_tabs.quicktabs-style-zen {
   background-color:red;
 }
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
     background: none;
     background-color: #FFFFFF;
+    background-color: #85786C;
     border: 1px solid #D3D3D3;
     color: #555555;
+    color: #FFFFFF;
     font-weight: normal;
 }
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
     background: none;
-    background-color: #C7C5BA;
+    
+    background-color: #5D5249;
     border: 1px solid #AAAAAA;
+    background-color: #C7C5BA;
     color: #212121;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: #000000;
+    text-decoration: none;
     font-weight: normal;
 }
 
@@ -410,6 +429,7 @@ ul.quicktabs_tabs.quicktabs-style-zen{
     border: 1px solid #DDDDDD;
     height: 70px;
     background-color: #ffffff;
+    background-color: #C7C5BA;
     background-color: #C7C5BA;
     -moz-border-radius: 6px;
     border-radius: 6px;
