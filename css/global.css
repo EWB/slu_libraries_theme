@@ -1550,3 +1550,9 @@ div.error, table tr.error {
     margin: 6px 0;
     padding: 10px 10px 10px 50px;
 }    
+
+/*Workbench Customizations*/
+
+div.admin.my-workbench .left {
+    width: 32%;
+}
