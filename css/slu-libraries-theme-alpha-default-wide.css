@@ -14,7 +14,7 @@
     margin-right: 55px;
 
 }
-.context-special-collections .flex-nav-container {
+.context-special-collections .flex-nav-container, .context-ody-library .flex-nav-container {
 	width: 680px;
 	float: left;
 	margin-left: 90px;
