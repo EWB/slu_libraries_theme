@@ -12,6 +12,12 @@
 }
 .front .flex-nav-container {
     margin-right: 55px;
+
+}
+.context-special-collections .flex-nav-container {
+	width: 680px;
+	float: left;
+	margin-left: 90px;
 }
 #boxes-box-library_db_course_list {
 	margin-left: 84px;

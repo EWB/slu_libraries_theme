@@ -377,10 +377,10 @@ ul.quicktabs-tabs.quicktabs-style-zen li.active a, ul.quicktabs-tabs.quicktabs-s
     -moz-border-radius: 6px;
     border-radius: 6px;
 }
-#boxes-box-manuscript_search .form-type-textfield input {
+/*#boxes-box-manuscript_search .form-type-textfield input {
 
     width: 200px;
-}
+}*/
 #boxes-box-manuscript_search label, #boxes-box-manuscript_search .form-item-retain-filters {
     display: none;
 }
