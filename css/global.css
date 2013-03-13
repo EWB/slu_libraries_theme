@@ -211,7 +211,7 @@ a:hover {
     line-height: 1.4em;
     list-style: none outside none;
     margin-left: 4px;
-    padding-left: 4px;
+    padding-left: 44px;
 }
 
 #zone-content-grid h2.block-title  {
@@ -638,12 +638,28 @@ ul.nice-menu-down li li.menuparent:hover {
 }
 
 
+.front .view-featured-content img {
+    background: none repeat scroll 0 0 #FFFFFF;
+    /*border: 1px solid #DDDDDD;*/
+    margin-top: 10px;
+    padding: 4px;
 
+}
+.front .flex-nav-container {
+    max-width: 400px;
+}
+.front .flexslider {
+    width: 300px
+}
 
+.flex-direction-nav .flex-prev, .flex-direction-nav .flex-next{
+    display: none;
+    }
+.front #block-views-featured-block img {
+    width: 300px;
+    height: 188px;
 
-
-
-
+}
 
 #boxes-box-library_db_course_list img {
     padding-right: 6px;
@@ -651,15 +667,6 @@ ul.nice-menu-down li li.menuparent:hover {
 
 
 }
-
-.view-featured-content img {
-    background: none repeat scroll 0 0 #FFFFFF;
-    /*border: 1px solid #DDDDDD;*/
-    margin-top: 10px;
-    padding: 4px;
-
-}
-
 
 
 #zone-user-wrapper  {
@@ -684,8 +691,8 @@ ul.nice-menu-down li li.menuparent:hover {
     border-radius: 6px;
 }
 #zone-postscript h2.block-title {
-    background-color: #000000;
-    color: #FFFFFF;
+/*    background-color: #000000;
+*/    color: #FFFFFF;
     padding-bottom: 4px;
     padding-left: 12px;
     padding-top: 6px;
@@ -706,7 +713,6 @@ ul.nice-menu-down li li.menuparent:hover {
 }
 
 .front #zone-postscript .block-title  {
-    background-color: #000000;
     padding-top:6px;
     padding-left: 12px;
     padding-bottom: 6px;
@@ -714,6 +720,15 @@ ul.nice-menu-down li li.menuparent:hover {
     -moz-border-radius: 6px;
     border-radius: 6px;
 
+}
+.front #region-postscript-first .block-title {
+    background-color: #000000;
+}
+.front #region-postscript-second .block-title {
+    background-color: #607C8C;
+}
+.front #region-postscript-third .block-title {
+    background-color: #E28C05;
 }
 
 .block-views-base-announcement-block .block-inner  {
@@ -724,7 +739,6 @@ ul.nice-menu-down li li.menuparent:hover {
 }
 .front #zone-postscript  .field-content p {
     margin-bottom: 0px;
-    max-width:200px;
     padding-top:5px;
 
 }
@@ -773,13 +787,16 @@ ul.nice-menu-down li li.menuparent:hover {
 }*/
 
 #zone-postscript .block-views .views-row {
-    min-height: 305px;
+    min-height: 180px;
 }
 
 
 
 /**************** hide and seek - START ***************************/
 
+/*#block-views-manuscript-collections-block-1 {
+  display: none;
+}*/
 .block-library-search-cluster  {
     display: none;
 }
@@ -803,8 +820,6 @@ ul.nice-menu-down li li.menuparent:hover {
     display: none;
 }
 
-
-
 .block-quicktabs-library-search-cluster-mobile {
     display: block;
 }
@@ -814,10 +829,10 @@ ul.nice-menu-down li li.menuparent:hover {
 .block-superfish-3 {
     display: none;
 }
-.block-boxes-front-resources-block {
+/*.block-boxes-front-resources-block {
     display: none;
 }
-
+*/
 /**************** hide and seek - END ***************************/
 
 /*Image handling*/
@@ -827,12 +842,7 @@ ul.nice-menu-down li li.menuparent:hover {
 
 }
 */
-#block-views-featured-block img {
-    width: 300px;
-    height: 188px;
 
-
-}
 
 section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
     display: none;
@@ -1122,6 +1132,19 @@ section.block-quicktabs-library-search-cluster-mobile  h2.block-title {
     padding-left: 13px;
     width: 60px;
 }
+.not-front #boxes-box-front_resources_block ul.homeres li {
+    margin: 10px 0 15px;
+    padding-left: 19px;
+    width: 48px;
+}
+/*.not-front .block .content #boxes-box-front_resources_block ul li {
+    border-bottom: medium none;
+}
+.not-front #boxes-box-front_resources_block ul.homeres li {
+    margin: 10px 0 15px;
+    padding-left: 19px;
+    width: 48px;
+}*/
 #boxes-box-front_resources_block ul.homeres li img {
     float: left;
     margin-bottom: 10px;
@@ -1570,6 +1593,10 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     text-indent: -1.0em;
 
 }
+#boxes-box-front_resources_block ul.homeres li {
+    border-bottom: none;
+
+    }
 .front .region-sidebar-first .block, .front .region-sidebar-second  .block {
     background: none repeat scroll 0 0 #FFFFFF;
     border: none;
@@ -1650,6 +1677,9 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     margin-top: 10px;
     margin-right: 8px;
     padding: 4px;
+    width:100px;
+    height:67px;
+    float:left;
 
 }
 

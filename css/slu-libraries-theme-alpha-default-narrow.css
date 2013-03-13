@@ -3,6 +3,7 @@
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
 
+
 #zone-content {
 	min-height: 700px;
 
@@ -14,6 +15,9 @@
 }*/
 /**************** hide and seek - START ***************************/
 
+/*#block-views-manuscript-collection-block-1 {
+  display: none;
+}*/
 /*.front #region-postscript-fourth { 
 }*/
 
@@ -51,7 +55,10 @@
 .block-superfish-3 {
     display: block;
 }
+#boxes-box-library_humanities_links ul, #boxes-box-library_sciences_links ul, #boxes-box-library_social_sciences_links ul, #boxes-box-library_general_sources_links ul, #boxes-box-library_interdisciplinary_links ul   {
 
+    padding-left: 4px;
+}
 
 .node-type-library-manuscript-collection .field-name-field-manuscript-image  {
    /* margin-top: 106px;*/
@@ -62,4 +69,21 @@
 }
 .node-library-manuscript-collection .field-name-body {
   padding-top:24px;
+}
+
+
+
+.front #zone-postscript  .field-content p {
+    max-width:200px;
+
+}
+.front #zone-postscript img {
+
+    width:100px;
+    height: 67px;
+    float:none;
+
+}
+#zone-postscript .block-views .views-row {
+    min-height: 305px;
 }

@@ -15,6 +15,7 @@
 /*#zone-branding img { 
     padding-top: 40px;
   }*/
+
 #block-search-form {
       padding-top: 60px;
 
@@ -201,10 +202,15 @@
 
 }
 
-#block-views-featured-block img {
+.front #block-views-featured-block img {
     height: 250px;
     width: 400px;
 }
+
+.front .flexslider {
+    width: 400px
+}
+
 
 .block-library-search-cluster {
     display: block;
@@ -215,6 +221,9 @@
 /**************** hide and seek - START ***************************/
 
 
+#block-views-manuscript-collections-block-1 {
+  display: block;
+}
 /*#block-views-base-announcement-block-1 {
     display: none;
 
@@ -230,6 +239,7 @@
 /*#block-views-base-announcement-block-4 {
     display: none;
 }*/
+
 .citation-guides-mobile {
     display: none;
 }
@@ -387,6 +397,9 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
   bottom: 2px;
   right: 5px;
 }
+/*.context-ody-library #block-views-slideshow-block-4 {
+    
+}*/
 .node-library-guide-or-tutorial .field-name-body {
   display: block;
   float: left;
@@ -495,5 +508,16 @@ p.dropcap:first-letter, p span.dropcap:first-letter {
 #block-quicktabs-special-collections-search-clust {
       width: 520px;  
       margin-left: 60px;
+}
+.front #zone-postscript img {
+
+    width:180px;
+    height: 120px;
+
+}
+.front #zone-postscript .view-manuscript-collections img {
+
+  width: 100px;
+  height: 78px;
 }
 

@@ -2,9 +2,18 @@
 
 
 
+#quicktabs-library_search_cluster {
+	margin-left: 34px;
+	margin-top: 54px;
+}
 .view-featured-content img {
     padding-left: 60px;
 
+}
+.front .flex-nav-container {
+    margin-right: 55px;
+}
+#boxes-box-library_db_course_list {
+	margin-left: 84px;
 
 }
-
