@@ -1744,7 +1744,7 @@ div.admin.my-workbench .left {
 .flexslider .slides > li:first-child {display: block; -webkit-backface-visibility: visible;} 
 
 
-    /* $Id: micro-gallery-x-340x200.css,v 1.1.1 2011/01/10 23:44:44 DRIVE Exp $ */
+     /* $Id: micro-gallery-x-340x200.css,v 1.1.1 2011/01/10 23:44:44 DRIVE Exp $ */
 /**
       "MICRO GALLERY 'X' 340x200" for Drupal, Galleryformatter Module by Manuel Garcia
 **/
@@ -1773,7 +1773,7 @@ div.galleryformatter,
   -turn border on/change its color to visualize container proportions.
 */
   padding:4px;
-  width:302px;
+  width:304px;
   border:1px solid #191919;
   clear:both;
   margin-bottom:4px;
@@ -1793,7 +1793,8 @@ div.galleryformatter,
 
 .galleryformatter .gallery-slides .panel-overlay {
   position: absolute;
-  bottom: 0.1em; left: 0;
+  /*bottom: 0.1em; left: 0;*/
+  /*ewb*/  bottom:0em;
   width: 100%;
   color: #545454;
   background: transparent url(../images/bg-trans.png) repeat;
@@ -1912,9 +1913,14 @@ div.galleryformatter,
 
 
 .galleryformatter {
-float: left;
-margin-right: 18px;
+float: right;
+margin-left: 10px;
 /*margin-top: 85px;*/
 }
 
-
+.galleryformatter h4 {
+    border-bottom:none;
+    color:#FFFFFF;
+    padding-top:6px;
+    padding-bottom:4px;
+}
