@@ -1736,3 +1736,185 @@ div.error, table tr.error {
 div.admin.my-workbench .left {
     width: 32%;
 }
+
+
+/*flexslider - loads first image quicktabs-library_search_cluster
+*/
+
+.flexslider .slides > li:first-child {display: block; -webkit-backface-visibility: visible;} 
+
+
+    /* $Id: micro-gallery-x-340x200.css,v 1.1.1 2011/01/10 23:44:44 DRIVE Exp $ */
+/**
+      "MICRO GALLERY 'X' 340x200" for Drupal, Galleryformatter Module by Manuel Garcia
+**/
+
+/* Configuration --> Media --> Image Styles --> Add Style
+   -add micro-thumb-52x38 + add Effect: scale and crop 52w x 38h
+   -add micro-slide-340x200 + add Effect: scale and crop 340w x 200h
+   -set up and use per Galleryformatter documentation
+*/
+
+/* next two lines help SOME themes to NOT hijack Galleryformatter styles - DRIVE - 03262011 */
+.node .content .galleryformatter ul { list-style-type:none; }
+.node .content .galleryformatter ul li { list-style:none;background-image:none;background:transparent none;padding-left:0;margin-left:0;border:none;vertical-align:inherit; }
+
+/* set width & background color - different background # provide nuances
+   in overall resulting color when using bg-trans.png - Default settings are transparent - DRIVE
+*/
+.galleryformatter .galleryformatter,
+div.galleryformatter,
+div.galleryformatter,
+/* the lines above help SOME themes to NOT hijack Galleryformatter styles - DRIVE - 03262011 */
+.galleryformatter { 
+/* tune the overall footprint of the gallery container.
+  -if your galleries are in articles, tune to give more space.
+  -if you use this in a column block, you might reduce the width or padding for example.
+  -turn border on/change its color to visualize container proportions.
+*/
+  padding:4px;
+  width:302px;
+  border:1px solid #191919;
+  clear:both;
+  margin-bottom:4px;
+  background: #333333 url(../images/bg-trans.png) repeat;
+ /* background-color:transparent;*/
+}
+
+.galleryformatter .gallery-thumbs, .gallery-thumbs ul li { padding: 0px 0px 0px 0px; }
+.galleryformatter .gallery-slides { }
+.galleryformatter .gallery-slide { }
+
+.galleryformatter .gallery-thumbs .arrow,
+.galleryformatter .gallery-thumbs .wrapper,
+.galleryformatter .gallery-thumbs li.active a,
+.galleryformatter .gallery-thumbs li a:hover,
+.galleryformatter .view-full { background:url("../images/sprite.png") no-repeat scroll 0 0 transparent; }
+
+.galleryformatter .gallery-slides .panel-overlay {
+  position: absolute;
+  bottom: 0.1em; left: 0;
+  width: 100%;
+  color: #545454;
+  background: transparent url(../images/bg-trans.png) repeat;
+}
+.galleryformatter .overlay-inner h3 { 
+/* set font stuff for slide caption overlay - Title of image used here!
+   MUST enable title & optionally alt in field display tab for
+   Content Type - title is used for captions on slides and full.
+   alt is for pure xhtml and recommended (they can be identical for speed...cnp keyboard) - DRIVE 02172011
+*/
+  font-family:Verdana,Helvetica,Tahoma,Arial,sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  color:#D6D6D6;
+  padding: 5px;
+}
+.galleryformatter .gallery-thumbs .wrapper {
+  overflow: auto;
+  line-height:0;
+  background-position: center -163px;
+  background-repeat: repeat-x;
+  border-bottom: 4px solid #2D2D2D;
+  /* tune or turn off the border below the left and right thumb arrows/carousel */
+}
+.galleryformatter .view-full {
+  background-position:center -102px;
+  height:24px; width:24px;
+  margin:5px;
+  position:absolute;
+  right:0; top:0;
+  text-indent:-9999px;
+}
+.galleryformattera:hover .view-full {
+  background-position: center -126px;
+}
+.galleryformatter .gallery-thumbs ul { list-style: none; }
+.galleryformatter .gallery-thumbs li {
+  float: left;
+  background: transparent none;
+  overflow:hidden;
+  /*padding-top: 3px;*/
+  padding:3px 6px 0 0;
+}
+.galleryformatter .gallery-thumbs li a {
+  display: block;
+  padding: 19px 0 7px;
+}
+.galleryformatter .gallery-thumbs li a:hover { background-position: center -153px; }
+.galleryformatter .gallery-thumbs li.active a { background-position: center -151px; }
+
+.galleryformatter .gallery-thumbs li.active img,
+.galleryformatter .gallery-thumbs li a:hover img {
+  filter:alpha(opacity=100);
+  -ms-filter:”alpha(opacity=100)”;
+  -moz-opacity:1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+.galleryformatter .gallery-thumbs li img {
+  filter:alpha(opacity=60);
+  -ms-filter:”alpha(opacity=60)”;
+  -moz-opacity:0.6;
+  -khtml-opacity: 0.6;
+  opacity: 0.6;
+}
+
+.galleryformatter .gallery-thumbs .arrow {
+  bottom:0;
+  display:block;
+  width:23px;
+  height:23px;
+  position:absolute;
+  text-indent:-9999px;
+}
+
+.galleryformatter .gallery-thumbs .forward {
+  background-position: 0px 0;
+  right: 0;
+}
+
+.galleryformatter .gallery-thumbs .back {
+  background-position: -2px -51px;
+  left: 0;
+}
+
+.galleryformatter .gallery-thumbs .forward:hover { background-position: 0px -26px; }
+
+.galleryformatter .gallery-thumbs .back:hover { background-position: -2px -78px; }
+
+.galleryformatter .slide-button {
+  background: transparent url(../images/next-prev.png) no-repeat top left;
+  height: 32px;
+  width: 16px;
+  top: 43%;
+  text-indent: -9999px;
+  filter:alpha(opacity=3);
+  -ms-filter:”alpha(opacity=3)”;
+  -moz-opacity:0.3;
+  -khtml-opacity: 0.3;
+  opacity: 0.3;
+}
+
+.galleryformatter .prev-slide {
+  background-position: top left;
+}
+.galleryformatter.next-slide {
+  background-position: top right;
+}
+.galleryformatter .slide-button:hover {
+   filter: alpha(opacity=80);
+  -ms-filter: ”alpha(opacity=80)”;
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
+
+
+.galleryformatter {
+float: left;
+margin-right: 18px;
+/*margin-top: 85px;*/
+}
+
+
